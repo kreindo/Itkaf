@@ -9,7 +9,7 @@ import Daftar from '../components/Daftar';
 export default function Home() {
   return (
     <>
-      <SeoHead title="Kursus IT" />
+      <SeoHead title="ITKAF 2023" />
       <Layout>
         <Hero />
         <Feature />

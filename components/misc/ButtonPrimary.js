@@ -4,7 +4,7 @@ const ButtonPrimary = ({ children, addClass }) => {
   return (
     <button
       className={
-        'py-3 lg:py-4 px-12 lg:px-16 text-white font-semibold rounded-lg bg-cyan-500 hover:shadow-cyan-md transition-all outline-none' +
+        'py-3 lg:py-4 px-12 lg:px-16 text-white font-semibold rounded-lg bg-gradient-to-l from-primary to-secondary hover:shadow-cyan-md transition-all outline-none' +
         addClass
       }
     >

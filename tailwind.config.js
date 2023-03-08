@@ -18,7 +18,12 @@ module.exports = {
       'cyan-md': '0px 20px 40px -15px rgba(0,0,0,0.81) ',
       none: 'none',
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#511989',
+        secondary: '#526CBB',
+      },
+    },
   },
   variants: {
     extend: {
