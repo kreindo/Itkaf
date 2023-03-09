@@ -5,10 +5,11 @@ import getScrollAnimation from '../utils/getScrollAnimation';
 import ScrollAnimationWrapper from './Layout/ScrollAnimationWrapper';
 
 const features = [
-  'Paket Desain Grafis.',
-  'Paket Web Development.',
-  'Desain Canva.',
-  'Paket Kelola Sosmed.',
+  'Bacaan Al-Quran.',
+  'Dzikir pagi-petang.',
+  'Belajar IT.',
+  'Sharing session.',
+  'Dan masih banyak lagi...',
 ];
 
 const Feature = () => {
@@ -38,7 +39,7 @@ const Feature = () => {
             variants={scrollAnimation}
           >
             <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-              Kami menyediakan kelas-kelas yang menarik
+              Kegiatan yang menarik
             </h3>
             <p className="my-2 text-black-500">
               Anda dapat memilih kelas sesuai dengan passion anda.
