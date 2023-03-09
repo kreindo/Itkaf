@@ -39,7 +39,7 @@ const Feature = () => {
             variants={scrollAnimation}
           >
             <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-              Kegiatan yang menarik
+              Kegiatan yang menarik dan rabbani
             </h3>
             <p className="my-2 text-black-500">
               Anda dapat memilih kelas sesuai dengan passion anda.
