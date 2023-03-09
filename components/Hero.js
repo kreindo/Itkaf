@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
 import Image from 'next/image';
 import ButtonPrimary from './misc/ButtonPrimary';
+import { Link as LinkScroll } from 'react-scroll';
 import { motion } from 'framer-motion';
 import getScrollAnimation from '../utils/getScrollAnimation';
 import ScrollAnimationWrapper from './Layout/ScrollAnimationWrapper';
@@ -35,14 +36,15 @@ const Hero = ({
         >
           <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
             <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-              Kursus IT di <br />
-              <strong>Pondok Informatika</strong>.
+              Mari bergabung di <br />
+              <strong>ITKAF 2023</strong>.
             </h1>
             <p className="text-black-500 mt-4 mb-6">
-              Provide a network for all your needs with ease and fun using
-              LaslesVPN discover interesting features from us.
+              I'tikaf dan Belajar IT di Bulan Ramadhan.
             </p>
-            <ButtonPrimary>Daftar Sekarang</ButtonPrimary>
+            <LinkScroll to="daftar" spy={true} smooth={true} duration={1000}>
+              <ButtonPrimary href="#daftar">Daftar Sekarang</ButtonPrimary>
+            </LinkScroll>
           </div>
           <div className="flex w-full">
             <motion.div className="h-full w-full" variants={scrollAnimation}>

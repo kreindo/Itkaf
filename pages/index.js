@@ -1,5 +1,5 @@
 import Feature from '../components/Feature';
-import Pricing from '../components/Pricing';
+import Testimoni from '../components/Testimoni';
 import Hero from '../components/Hero';
 import Layout from '../components/Layout/Layout';
 import SeoHead from '../components/SeoHead';
@@ -14,6 +14,7 @@ export default function Home() {
         <Hero />
         <Feature />
         <Courses />
+        {/* <Testimoni /> */}
         <Daftar />
         {/* <Pricing /> */}
       </Layout>
