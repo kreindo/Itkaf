@@ -11,6 +11,13 @@ export default function Home() {
     <>
       <SeoHead title="ITKAF 2023" />
       <Layout>
+        <script
+          async
+          src="https://whatsform.com/launcher.js"
+          id="wf-widget"
+          data-id="OLCPHn"
+          data-message="Daftar disini"
+        ></script>
         <Hero />
         <Feature />
         <Courses />

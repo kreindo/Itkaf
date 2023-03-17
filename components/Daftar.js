@@ -8,8 +8,8 @@ const Daftar = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
   return (
     <div
-      id="daftar"
       className="max-w-screen-xl mt-8 mb-6 sm:mt-14 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto"
+      id="daftar"
     >
       <ScrollAnimationWrapper>
         <motion.div variants={scrollAnimation}>
@@ -28,7 +28,7 @@ const Daftar = () => {
             <iframe
               className="rounded-xl shadow-md"
               src="https://whatsform.com/DGe42E"
-              width="90%"
+              width="70%"
               height="700"
             ></iframe>
           </div>
